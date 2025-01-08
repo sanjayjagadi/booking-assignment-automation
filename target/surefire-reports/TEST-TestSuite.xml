@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.027" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sanja\booking-assignment-automation\target\test-classes;C:\Users\sanja\booking-assignment-automation\target\classes;C:\Users\sanja\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\sanja\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\sanja\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\sanja\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sanja\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sanja\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sanja\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sanja\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sanja\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sanja\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sanja\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\sanja\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\sanja\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\sanja\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\sanja\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sanja\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sanja\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sanja\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sanja\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sanja\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\sanja\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\sanja\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\sanja\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sanja\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sanja\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sanja\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sanja\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sanja\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sanja\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\sanja\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\sanja\AppData\Local\Temp\surefire3742632823641333915\surefirebooter7270566558895741940.jar C:\Users\sanja\AppData\Local\Temp\surefire3742632823641333915 2025-01-09T01-56-09_287-jvmRun1 surefire3471866117258771234tmp surefire_013423770464248715537tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sanja\booking-assignment-automation\target\test-classes;C:\Users\sanja\booking-assignment-automation\target\classes;C:\Users\sanja\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\sanja\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\sanja\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\sanja\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sanja\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sanja\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sanja\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sanja\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sanja\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\sanja\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sanja\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\sanja\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\sanja\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\sanja\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\sanja\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\sanja\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sanja\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sanja\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sanja\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sanja\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0\jackson-databind-2.15.0.jar;C:\Users\sanja\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0\jackson-annotations-2.15.0.jar;C:\Users\sanja\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0\jackson-core-2.15.0.jar;C:\Users\sanja\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sanja\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sanja\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sanja\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sanja\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\sanja\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sanja\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\sanja\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sanja"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sanja\booking-assignment-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sanja\AppData\Local\Temp\surefire3742632823641333915\surefirebooter7270566558895741940.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="user.name" value="sanja"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\sanja\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sanja\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="user.dir" value="C:\Users\sanja\booking-assignment-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\sanja\AppData\Local\Android\Sdk\platform-tools;C:\Users\sanja\AppData\Local\Android\Sdk\tools;C:\Users\sanja\AppData\Local\Android\Sdk\build-tools;C:\Users\sanja\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Program Files\apache-maven-3.9.8\bin;C:\Users\sanja\AppData\Local\GitHubDesktop\bin;C:\Users\sanja\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCreateBooking" classname="com.restassured.framework.tests.BookingPositiveTests" time="4.761">
+    <system-out><![CDATA[01:56:13.527 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:56:14.118 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:56:14.127 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:56:14.518 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:17.819 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:18.660 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 3051
+01:56:18.873 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetBooking" classname="com.restassured.framework.tests.BookingPositiveTests" time="1.327">
+    <system-out><![CDATA[01:56:18.885 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:56:18.886 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:56:18.888 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3051
+01:56:20.142 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:20.212 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateBookingWithInvalidData" classname="com.restassured.framework.tests.BookingNegativeTests" time="1.194">
+    <system-out><![CDATA[01:56:20.213 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:56:20.215 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:56:20.216 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:56:20.218 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:21.408 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:21.408 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBookingWithInvalidData
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNonExistentBooking" classname="com.restassured.framework.tests.BookingNegativeTests" time="1.211">
+    <system-out><![CDATA[01:56:21.410 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:56:21.410 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:56:21.410 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:56:22.619 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:56:22.619 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateBooking[com.restassured.framework.models.Booking@1dca62c2](1)" classname="com.restassured.framework.tests.BookingDataDrivenTests" time="2.38">
+    <system-out><![CDATA[01:56:22.620 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:56:22.625 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:56:22.627 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1dca62c2
+01:56:22.630 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:23.795 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:23.817 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3102
+01:56:24.942 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:25.003 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateBooking[com.restassured.framework.models.Booking@64420e34](2)" classname="com.restassured.framework.tests.BookingDataDrivenTests" time="2.481">
+    <system-out><![CDATA[01:56:25.006 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:56:25.007 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@64420e34
+01:56:25.007 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:26.193 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:26.205 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3124
+01:56:27.429 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:27.486 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="4" total="11" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-09T00:20:12 IST" name="Improved REST Assured Framework Suite" finished-at="2025-01-09T00:20:30 IST" duration-ms="17874">
+    <groups>
+    </groups>
+    <test started-at="2025-01-09T00:20:12 IST" name="Booking API Tests" finished-at="2025-01-09T00:20:30 IST" duration-ms="17874">
+      <class name="com.restassured.framework.tests.BookingPositiveTests">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.restassured.framework.tests.BookingPositiveTests@610db97e]" started-at="2025-01-09T00:20:12 IST" name="setUpSuite" finished-at="2025-01-09T00:20:12 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.framework.tests.BookingPositiveTests@610db97e]" started-at="2025-01-09T00:20:12 IST" name="setUp" finished-at="2025-01-09T00:20:13 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking()[pri:1, instance:com.restassured.framework.tests.BookingPositiveTests@610db97e]" started-at="2025-01-09T00:20:13 IST" name="testCreateBooking" finished-at="2025-01-09T00:20:20 IST" duration-ms="7429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testGetBooking()[pri:2, instance:com.restassured.framework.tests.BookingPositiveTests@610db97e]" started-at="2025-01-09T00:20:20 IST" name="testGetBooking" finished-at="2025-01-09T00:20:22 IST" depends-on-methods="com.restassured.framework.tests.BookingPositiveTests.testCreateBooking" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.restassured.framework.tests.BookingPositiveTests@610db97e]" started-at="2025-01-09T00:20:30 IST" name="tearDownSuite" finished-at="2025-01-09T00:20:31 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.restassured.framework.tests.BookingPositiveTests -->
+      <class name="com.restassured.framework.tests.BookingNegativeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@74d7184a]" started-at="2025-01-09T00:20:22 IST" name="setUp" finished-at="2025-01-09T00:20:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="testCreateBookingWithInvalidData()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@74d7184a]" started-at="2025-01-09T00:20:22 IST" name="testCreateBookingWithInvalidData" finished-at="2025-01-09T00:20:23 IST" duration-ms="1187" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unexpected status code for invalid booking expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unexpected status code for invalid booking expected [400] but found [200]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at com.restassured.framework.tests.BookingNegativeTests.testCreateBookingWithInvalidData(BookingNegativeTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithInvalidData -->
+        <test-method signature="testCreateBookingWithInvalidData()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@74d7184a]" started-at="2025-01-09T00:20:23 IST" name="testCreateBookingWithInvalidData" finished-at="2025-01-09T00:20:24 IST" duration-ms="1200" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unexpected status code for invalid booking expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unexpected status code for invalid booking expected [400] but found [200]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at com.restassured.framework.tests.BookingNegativeTests.testCreateBookingWithInvalidData(BookingNegativeTests.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithInvalidData -->
+        <test-method signature="testGetNonExistentBooking()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@74d7184a]" started-at="2025-01-09T00:20:24 IST" name="testGetNonExistentBooking" finished-at="2025-01-09T00:20:25 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentBooking -->
+      </class> <!-- com.restassured.framework.tests.BookingNegativeTests -->
+      <class name="com.restassured.framework.tests.BookingDataDrivenTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.framework.tests.BookingDataDrivenTests@51b01960]" started-at="2025-01-09T00:20:25 IST" name="setUp" finished-at="2025-01-09T00:20:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking(com.restassured.framework.models.Booking)[pri:0, instance:com.restassured.framework.tests.BookingDataDrivenTests@51b01960]" started-at="2025-01-09T00:20:25 IST" name="testCreateBooking" data-provider="bookingData" finished-at="2025-01-09T00:20:28 IST" duration-ms="2397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.restassured.framework.models.Booking@131d977f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testCreateBooking(com.restassured.framework.models.Booking)[pri:0, instance:com.restassured.framework.tests.BookingDataDrivenTests@51b01960]" started-at="2025-01-09T00:20:28 IST" name="testCreateBooking" data-provider="bookingData" finished-at="2025-01-09T00:20:30 IST" duration-ms="2438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.restassured.framework.models.Booking@4de158ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+      </class> <!-- com.restassured.framework.tests.BookingDataDrivenTests -->
+    </test> <!-- Booking API Tests -->
+  </suite> <!-- Improved REST Assured Framework Suite -->
+</testng-results>

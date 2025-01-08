@@ -1,0 +1,549 @@
+21:09:02.061 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+21:09:02.487 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking
+21:09:02.735 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:09:05.258 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:09:05.739 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4496
+21:09:06.879 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:10:53.230 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+21:10:53.511 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking
+21:10:53.678 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:10:55.807 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:10:56.267 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/124
+21:10:57.415 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:19:39.796 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+21:19:40.085 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+21:19:40.263 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:19:42.656 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:19:42.667 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+21:19:42.726 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+21:19:42.726 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:19:43.886 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:19:43.886 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 2 time(s).
+21:19:43.896 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+21:19:43.897 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:19:45.096 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:19:45.096 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 3 time(s).
+21:19:45.109 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+21:19:45.110 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:19:46.305 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:19:46.324 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+21:19:46.324 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+21:19:47.477 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+21:41:15.119 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+21:41:15.754 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@66273da0
+21:41:15.755 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:41:18.257 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:41:18.913 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/543
+21:41:20.105 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:41:20.272 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@139089a4
+21:41:20.272 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+21:41:21.413 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+21:41:21.440 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/563
+21:41:22.567 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:24:27.359 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+22:24:27.729 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking
+22:24:27.957 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:24:30.283 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:24:30.774 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/2129
+22:24:31.976 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:33:59.602 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+22:33:59.898 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:34:00.075 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:34:02.303 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:34:02.311 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+22:34:02.372 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:34:02.372 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:34:03.533 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:34:03.534 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 2 time(s).
+22:34:03.543 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:34:03.544 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:34:04.721 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:34:04.722 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 3 time(s).
+22:34:04.730 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:34:04.732 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:34:05.921 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:34:05.928 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+22:34:05.928 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+22:34:07.122 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+22:37:35.630 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+22:37:35.943 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:37:36.117 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:37:38.280 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:37:38.290 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+22:37:38.354 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:37:38.357 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:37:39.551 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:37:39.552 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 2 time(s).
+22:37:39.562 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:37:39.564 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:37:40.719 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:37:40.720 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 3 time(s).
+22:37:40.729 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+22:37:40.730 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:37:41.880 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:37:41.886 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+22:37:41.887 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+22:37:43.029 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+22:45:33.263 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+22:45:33.707 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1a0d96a5
+22:45:33.708 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:45:35.769 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:45:36.192 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/2689
+22:45:37.423 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:45:37.576 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@2328ec73
+22:45:37.577 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:45:38.804 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:45:38.819 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/2719
+22:45:40.022 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:47:23.048 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+22:47:23.528 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1a0d96a5
+22:47:23.532 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:47:25.570 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:47:25.995 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3554
+22:47:27.164 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:47:27.284 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@7fcc3745
+22:47:27.284 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:47:28.445 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:47:28.463 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3584
+22:47:29.617 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:58:14.056 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+22:58:14.392 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+22:58:14.588 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+22:58:16.567 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+22:58:17.003 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 3876
+22:58:17.124 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+22:58:17.125 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3876
+22:58:18.356 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:25.479 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+23:02:25.742 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+23:02:25.783 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+23:02:25.943 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:27.891 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:28.329 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 1149
+23:02:28.414 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+23:02:28.467 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+23:02:28.468 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+23:02:28.469 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/1149
+23:02:29.671 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:29.729 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+23:02:29.734 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+23:02:29.735 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+23:02:29.737 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:02:29.738 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:30.911 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:30.919 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+23:02:30.922 [main] WARN  com.restassured.framework.listeners.TestListener - Test skipped: testCreateBookingWithInvalidData
+23:02:30.926 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+23:02:30.928 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:02:30.929 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:32.043 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:32.043 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 2 time(s).
+23:02:32.045 [main] WARN  com.restassured.framework.listeners.TestListener - Test skipped: testCreateBookingWithInvalidData
+23:02:32.049 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+23:02:32.051 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:02:32.052 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:33.250 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:33.250 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 3 time(s).
+23:02:33.252 [main] WARN  com.restassured.framework.listeners.TestListener - Test skipped: testCreateBookingWithInvalidData
+23:02:33.256 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+23:02:33.257 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:02:33.258 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:34.464 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:34.467 [main] ERROR com.restassured.framework.listeners.TestListener - Test failed: testCreateBookingWithInvalidData
+23:02:34.476 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+23:02:34.477 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+23:02:34.477 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+23:02:35.675 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+23:02:35.677 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+23:02:35.683 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+23:02:35.687 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+23:02:35.689 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@2c154508
+23:02:35.689 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:36.812 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:36.829 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/1222
+23:02:38.019 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:38.075 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+23:02:38.080 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+23:02:38.081 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@2d4a0671
+23:02:38.081 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:02:39.295 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:39.314 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/1246
+23:02:40.485 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:02:40.553 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+23:02:40.595 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+23:13:16.968 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+23:13:17.271 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+23:13:17.445 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:13:19.466 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:13:19.894 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 1518
+23:13:20.012 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+23:13:20.013 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/1518
+23:13:21.197 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:17:38.010 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+23:17:38.317 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:17:38.517 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:17:40.500 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:17:40.509 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+23:17:40.576 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:17:40.577 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:17:41.720 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:17:41.721 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 2 time(s).
+23:17:41.729 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:17:41.730 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:17:42.898 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:17:42.899 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 3 time(s).
+23:17:42.905 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:17:42.906 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:17:44.036 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:17:44.050 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+23:17:44.051 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+23:17:45.171 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+23:25:53.838 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+23:25:54.151 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:25:54.338 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:25:56.510 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:25:56.521 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+23:25:56.567 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+23:25:56.568 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+23:25:57.730 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+23:25:57.739 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+23:25:57.739 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+23:25:58.925 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+00:18:17.786 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+00:18:18.622 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+00:18:18.957 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+00:18:21.630 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:18:22.307 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 4096
+00:18:22.516 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+00:18:22.517 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4096
+00:18:23.725 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:12.618 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+00:20:13.206 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+00:20:13.285 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+00:20:13.707 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+00:20:19.950 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:20.487 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 15
+00:20:20.631 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+00:20:20.715 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+00:20:20.719 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+00:20:20.719 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/15
+00:20:21.965 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:22.040 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+00:20:22.050 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+00:20:22.051 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+00:20:22.053 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+00:20:22.055 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+00:20:23.236 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:23.247 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+00:20:23.252 [main] WARN  com.restassured.framework.listeners.TestListener - Test skipped: testCreateBookingWithInvalidData
+00:20:23.256 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+00:20:23.257 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+00:20:23.258 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+00:20:24.455 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:24.456 [main] ERROR com.restassured.framework.listeners.TestListener - Test failed: testCreateBookingWithInvalidData
+00:20:24.462 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+00:20:24.463 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+00:20:24.463 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+00:20:25.594 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+00:20:25.595 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+00:20:25.601 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+00:20:25.607 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+00:20:25.611 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@131d977f
+00:20:25.612 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+00:20:26.724 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:26.742 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/83
+00:20:27.942 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:28.005 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+00:20:28.017 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+00:20:28.021 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@4de158ca
+00:20:28.021 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+00:20:29.181 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:29.202 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/118
+00:20:30.378 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+00:20:30.455 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+00:20:30.484 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:18:22.622 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:18:23.086 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:18:23.092 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:18:23.430 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:18:26.369 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:27.114 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 3976
+01:18:27.255 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:18:27.259 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:18:27.260 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:18:27.261 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3976
+01:18:28.444 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:28.518 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:18:28.521 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:18:28.522 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:18:28.522 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:18:28.523 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:18:29.688 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:29.699 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+01:18:29.699 [main] WARN  com.restassured.framework.listeners.TestListener - Test skipped: testCreateBookingWithInvalidData
+01:18:29.701 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:18:29.701 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:18:29.701 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:18:30.836 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:30.837 [main] ERROR com.restassured.framework.listeners.TestListener - Test failed: testCreateBookingWithInvalidData
+01:18:30.850 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:18:30.851 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:18:30.851 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:18:32.057 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:18:32.058 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:18:32.061 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:18:32.065 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:18:32.066 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@520a95ff
+01:18:32.066 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:18:33.206 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:33.230 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4043
+01:18:34.369 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:34.447 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:18:34.448 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:18:34.449 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@7dd3981e
+01:18:34.449 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:18:35.613 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:35.638 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4062
+01:18:36.809 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:18:36.885 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:18:36.885 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:19:31.062 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:19:31.435 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:19:31.440 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:19:31.716 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:19:34.333 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:34.813 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 4600
+01:19:34.916 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:19:34.921 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:19:34.921 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:19:34.922 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4600
+01:19:36.181 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:36.266 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:19:36.268 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:19:36.269 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:19:36.270 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:19:36.270 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:19:37.399 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:37.430 [main] INFO  com.restassured.framework.listeners.RetryAnalyzer - Retrying test testCreateBookingWithInvalidData with status FAILURE for the 1 time(s).
+01:19:37.430 [main] WARN  com.restassured.framework.listeners.TestListener - Test skipped: testCreateBookingWithInvalidData
+01:19:37.431 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:19:37.431 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:19:37.434 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:19:38.579 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:38.581 [main] ERROR com.restassured.framework.listeners.TestListener - Test failed: testCreateBookingWithInvalidData
+01:19:38.603 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:19:38.603 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:19:38.605 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:19:39.752 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:19:39.754 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:19:39.756 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:19:39.769 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:19:39.770 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@24fc2c80
+01:19:39.770 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:19:40.924 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:40.953 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4656
+01:19:42.201 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:42.284 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:19:42.285 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:19:42.285 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@26d73519
+01:19:42.285 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:19:43.433 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:43.458 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4682
+01:19:44.688 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:19:44.790 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:19:44.790 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:21:52.961 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:21:53.333 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:21:53.340 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:21:53.610 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:21:56.037 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:21:56.497 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 754
+01:21:56.584 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:21:56.590 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:21:56.590 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:21:56.590 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/754
+01:21:57.791 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:21:57.883 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:21:57.885 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:21:57.886 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:21:57.887 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:21:57.888 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:21:59.030 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:21:59.032 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBookingWithInvalidData
+01:21:59.035 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:21:59.037 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:21:59.038 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:22:00.224 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:22:00.226 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:22:00.228 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:22:00.240 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:22:00.240 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1dca62c2
+01:22:00.243 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:22:01.447 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:22:01.502 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/799
+01:22:02.619 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:22:02.706 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:22:02.707 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:22:02.707 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@64420e34
+01:22:02.708 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:22:03.891 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:22:03.937 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/824
+01:22:05.074 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:22:05.163 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:22:05.165 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:28:13.278 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:28:13.882 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:28:13.889 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:28:14.284 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:28:17.079 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:17.739 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 3991
+01:28:17.911 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:28:17.919 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:28:17.919 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:28:17.920 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3991
+01:28:19.092 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:19.158 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:28:19.160 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:28:19.160 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:28:19.161 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:28:19.162 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:28:20.380 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:20.381 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBookingWithInvalidData
+01:28:20.383 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:28:20.384 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:28:20.384 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:28:21.524 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:28:21.526 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:28:21.527 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:28:21.532 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:28:21.532 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1dca62c2
+01:28:21.534 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:28:22.696 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:22.711 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4036
+01:28:23.916 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:23.975 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:28:23.976 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:28:23.977 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@64420e34
+01:28:23.977 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:28:25.169 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:25.185 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/4059
+01:28:26.370 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:28:26.421 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:28:26.422 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:32:14.291 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:32:14.926 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:32:14.932 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:32:15.334 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:32:18.547 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:19.318 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 283
+01:32:19.497 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:32:19.506 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:32:19.508 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:32:19.508 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/283
+01:32:20.701 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:20.819 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:32:20.822 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:32:20.823 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:32:20.823 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:32:20.825 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:32:21.991 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:21.992 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBookingWithInvalidData
+01:32:21.994 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:32:21.994 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:32:21.995 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:32:23.140 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:32:23.141 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:32:23.143 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:32:23.157 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:32:23.159 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1dca62c2
+01:32:23.164 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:32:24.331 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:24.374 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/336
+01:32:25.518 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:25.605 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:32:25.606 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:32:25.607 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@64420e34
+01:32:25.607 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:32:26.826 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:26.848 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/355
+01:32:28.085 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:32:28.193 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:32:28.194 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:37:57.853 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:37:58.441 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:37:58.448 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:37:58.812 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:38:02.073 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:02.776 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 3212
+01:38:02.922 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:38:02.930 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:38:02.931 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:38:02.933 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3212
+01:38:04.129 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:04.195 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:38:04.195 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:38:04.197 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:38:04.197 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:38:04.198 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:38:05.350 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:05.351 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBookingWithInvalidData
+01:38:05.352 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:38:05.353 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:38:05.353 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:38:06.589 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:38:06.589 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:38:06.590 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:38:06.593 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:38:06.593 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1dca62c2
+01:38:06.595 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:38:07.720 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:07.745 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3268
+01:38:08.961 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:09.023 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:38:09.023 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:38:09.023 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@64420e34
+01:38:09.024 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:38:10.277 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:10.293 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3286
+01:38:11.504 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:38:11.548 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:38:11.549 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests
+01:56:13.527 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:56:14.118 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:56:14.127 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking using POST API
+01:56:14.518 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:17.819 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:18.660 [main] INFO  com.restassured.framework.base.BaseTest - Created booking with ID: 3051
+01:56:18.873 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:56:18.885 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetBooking
+01:56:18.886 [main] INFO  com.restassured.framework.base.BaseTest - Testing get booking using GET API
+01:56:18.888 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3051
+01:56:20.142 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:20.212 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetBooking
+01:56:20.213 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:56:20.215 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBookingWithInvalidData
+01:56:20.216 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with invalid data
+01:56:20.218 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:21.408 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:21.408 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBookingWithInvalidData
+01:56:21.410 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testGetNonExistentBooking
+01:56:21.410 [main] INFO  com.restassured.framework.base.BaseTest - Testing get non-existent booking
+01:56:21.410 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/999999
+01:56:22.619 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 404
+01:56:22.619 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testGetNonExistentBooking
+01:56:22.620 [main] INFO  com.restassured.framework.base.BaseTest - Setting up base URL: https://restful-booker.herokuapp.com
+01:56:22.625 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:56:22.627 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@1dca62c2
+01:56:22.630 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:23.795 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:23.817 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3102
+01:56:24.942 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:25.003 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:56:25.006 [main] INFO  com.restassured.framework.listeners.TestListener - Test started: testCreateBooking
+01:56:25.007 [main] INFO  com.restassured.framework.base.BaseTest - Testing create booking with data: com.restassured.framework.models.Booking@64420e34
+01:56:25.007 [main] INFO  com.restassured.framework.utils.APIUtils - Sending POST request to: /booking
+01:56:26.193 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:26.205 [main] INFO  com.restassured.framework.utils.APIUtils - Sending GET request to: /booking/3124
+01:56:27.429 [main] INFO  com.restassured.framework.utils.APIUtils - Received response with status code: 200
+01:56:27.486 [main] INFO  com.restassured.framework.listeners.TestListener - Test passed: testCreateBooking
+01:56:27.488 [main] INFO  com.restassured.framework.listeners.TestListener - Test suite finished: Booking API Tests

@@ -1,0 +1,4 @@
+com\restassured\framework\tests\BookingDataDrivenTests.class
+com\restassured\framework\base\BaseTest.class
+com\restassured\framework\tests\BookingNegativeTests.class
+com\restassured\framework\tests\BookingPositiveTests.class

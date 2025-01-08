@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-09T01:56:13 IST" name="Improved REST Assured Framework Suite" finished-at="2025-01-09T01:56:27 IST" duration-ms="14040">
+    <groups>
+    </groups>
+    <test started-at="2025-01-09T01:56:13 IST" name="Booking API Tests" finished-at="2025-01-09T01:56:27 IST" duration-ms="14040">
+      <class name="com.restassured.framework.tests.BookingPositiveTests">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.restassured.framework.tests.BookingPositiveTests@207ea13]" started-at="2025-01-09T01:56:12 IST" name="setUpSuite" finished-at="2025-01-09T01:56:13 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.framework.tests.BookingPositiveTests@207ea13]" started-at="2025-01-09T01:56:13 IST" name="setUp" finished-at="2025-01-09T01:56:14 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking()[pri:1, instance:com.restassured.framework.tests.BookingPositiveTests@207ea13]" started-at="2025-01-09T01:56:14 IST" name="testCreateBooking" finished-at="2025-01-09T01:56:18 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testGetBooking()[pri:2, instance:com.restassured.framework.tests.BookingPositiveTests@207ea13]" started-at="2025-01-09T01:56:18 IST" name="testGetBooking" finished-at="2025-01-09T01:56:20 IST" depends-on-methods="com.restassured.framework.tests.BookingPositiveTests.testCreateBooking" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.restassured.framework.tests.BookingPositiveTests@207ea13]" started-at="2025-01-09T01:56:27 IST" name="tearDownSuite" finished-at="2025-01-09T01:56:27 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.restassured.framework.tests.BookingPositiveTests -->
+      <class name="com.restassured.framework.tests.BookingNegativeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@630cb4a4]" started-at="2025-01-09T01:56:20 IST" name="setUp" finished-at="2025-01-09T01:56:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBookingWithInvalidData()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@630cb4a4]" started-at="2025-01-09T01:56:20 IST" name="testCreateBookingWithInvalidData" finished-at="2025-01-09T01:56:21 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithInvalidData -->
+        <test-method signature="testGetNonExistentBooking()[pri:0, instance:com.restassured.framework.tests.BookingNegativeTests@630cb4a4]" started-at="2025-01-09T01:56:21 IST" name="testGetNonExistentBooking" finished-at="2025-01-09T01:56:22 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentBooking -->
+      </class> <!-- com.restassured.framework.tests.BookingNegativeTests -->
+      <class name="com.restassured.framework.tests.BookingDataDrivenTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.restassured.framework.tests.BookingDataDrivenTests@636e8cc]" started-at="2025-01-09T01:56:22 IST" name="setUp" finished-at="2025-01-09T01:56:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking(com.restassured.framework.models.Booking)[pri:0, instance:com.restassured.framework.tests.BookingDataDrivenTests@636e8cc]" started-at="2025-01-09T01:56:22 IST" name="testCreateBooking" data-provider="bookingData" finished-at="2025-01-09T01:56:25 IST" duration-ms="2378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.restassured.framework.models.Booking@1dca62c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testCreateBooking(com.restassured.framework.models.Booking)[pri:0, instance:com.restassured.framework.tests.BookingDataDrivenTests@636e8cc]" started-at="2025-01-09T01:56:25 IST" name="testCreateBooking" data-provider="bookingData" finished-at="2025-01-09T01:56:27 IST" duration-ms="2481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.restassured.framework.models.Booking@64420e34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+      </class> <!-- com.restassured.framework.tests.BookingDataDrivenTests -->
+    </test> <!-- Booking API Tests -->
+  </suite> <!-- Improved REST Assured Framework Suite -->
+</testng-results>
