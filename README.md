@@ -22,4 +22,13 @@ pojo classes, enhanced serialization and deserialization using jacson and lombok
 				step 3 - git fetch 
 				step 4   git checkout master
 				step 5 - mvn clean install
-        step 6 - mvn test
+       				 step 6 - mvn test
+
+  ##This layered approach offers several benefits:
+
+- Separation of Concerns: Each component has a specific, well-defined responsibility.
+- Modularity: Components can be easily updated or replaced without affecting the entire system.
+- Reusability: Utility classes and base tests promote code reuse across different test cases.
+- Maintainability: Centralized components make updates easier and reduce the risk of inconsistencies.
+- Scalability: New tests or functionalities can be added with minimal changes to existing code.
+
