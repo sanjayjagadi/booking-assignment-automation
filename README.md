@@ -8,7 +8,7 @@ It includes features such as extent reporting,
 logging with Log4j2, 
 retry mechanism for flaky tests, 
 and data-driven testing capabilities.
-pojo classes, enhanced serialization and deserialization,hmcrest assertions.
+pojo classes, enhanced serialization and deserialization using jacson and lombok libraries and hmcrest assertions.
 
 
 ## Prerequisites
